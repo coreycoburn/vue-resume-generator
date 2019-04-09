@@ -5,12 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "resume:screenshot": "node ./scripts/screenshot.js",
+    "resume:pdf": "node ./scripts/pdf.js",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "puppeteer": "^1.14.0",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1"
   },
