@@ -1,39 +1,27 @@
-# resume
+# Corey Coburn
 
-## Project setup
-```
-yarn install
-```
+### Full Stack Software Engineer
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+[`https://coburn.codes/resume`](https://coburn.codes/resume)
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+Fullstack Software Engineer and love using Laravel and Vuejs / Nuxt as the tech stack. Web developLovent is my passion. Constantly striving to become a better developer. I love being a husband and a father.
 
-### Run your tests
-```
-yarn run test
-```
+This is the code for my web developer resume. If you would like to reach out to me, please feel free to email me at `corey@coburn.codes` if you have any questions.
 
-### Lints and fixes files
-```
-yarn run lint
-```
+You may also reach me at:
 
-### Run your end-to-end tests
-```
-yarn run test:e2e
-```
+*   [`Twitter`](https://twitter.com/coreycoburn)
+*   [`Linked-In`](https://www.linkedin.com/in/coreycoburn)
 
-### Run your unit tests
-```
-yarn run test:unit
-```
+### Requirements
+In order to export resumes to PDF using Puppeteer, you must have at least Node v7.6.0 installed.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Credit
+
+This site uses the following open source projects:
+
+* [`Vue.js`](https://vuejs.org) - The app is built using the Vue.js Javascript framework.
+
+* [`Puppeteer`](https://github.com/GoogleChrome/puppeteer) - Implements the feature to export a resume from the app to a PDF.
+  
+* [`Tailwind`](https://tailwindcss.com) - The design of the app and resumes are implemented using the Tailwind CSS framwork.
