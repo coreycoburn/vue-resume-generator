@@ -14,10 +14,8 @@ const createPdf = async () => {
     }
   }
 
-  page.emulateMedia("screen");
   await page.pdf({
     path: "pdfs/resume.pdf",
-    format: "Letter",
     printBackground: true
   });
 

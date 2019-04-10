@@ -15,7 +15,6 @@ const takeScreenshot = async () => {
     }
   }
 
-  page.emulateMedia("screen");
   await page.screenshot({
     path: "screenshots/resume.png",
     fullPage: true,

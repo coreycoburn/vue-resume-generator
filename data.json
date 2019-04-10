@@ -1,0 +1,71 @@
+{
+  "name": {
+    "first": "Corey",
+    "middle": "",
+    "last": "Coburn"
+  },
+  "about": [
+    "I am a Full Stack Software Engineer with 8+ years of professional experience. My passion for this constantly evolving field resonates deeply with me. I continue to be inspired to excel as a developer and I am eager to be part of a team with similar goals."
+  ],
+  "position": {
+    "short": "Software Engineer",
+    "full": "Full Stack Software Engineer"
+  },
+  "contact": {
+    "email": "corey@coburn.codes",
+    "phone": "(707) 806-2644",
+    "location": "Santa Rosa, CA",
+    "links": [
+      {
+        "site": "LinkedIn",
+        "name": "coreycoburn",
+        "url": "https://www.linkedin.com/in/coreycoburn"
+      },
+      {
+        "site": "Github",
+        "name": "coreycoburn",
+        "url": "https://www.linkedin.com/in/coreycoburn"
+      },
+      {
+        "site": "Website",
+        "name": "coburn.codes",
+        "url": "https://coburn.codes"
+      }
+    ]
+  },
+  "education": [
+    {
+      "degree": "B.S.",
+      "major": "Business Administration",
+      "school": "Sonoma State University",
+      "timeperiod": "August 2001 - May 2005"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Certified Parking Attendants, LLC",
+      "position": "Full Stack Software Engineer",
+      "timeperiod": "2010 - 2019 (current)",
+      "description": "Sole developer of a private greenfield web application that runs the critical day-to-day operations of the business. Built with modern APIs, LEAP is a custom CRM and ERM. The app provides features such as the generation of business proposals and contracts, payment processing, extensive staff/event scheduling, streamline hiring, generating business reports, among other essential business processes."
+    },
+    {
+      "company": "Certified Parking Attendants, LLC",
+      "position": "Operations Manager",
+      "timeperiod": "2008 - 2019 (current)",
+      "description": "Overseeing the services that Certified Parking Attendants offer to ensure that clients and employees feel valued. Leading a large team at events in the Bay Area at high profile locations to ensure superior customer service. Building great employee / customer rapport."
+    },
+    {
+      "company": "Target Corporation",
+      "position": "Executive Team Leader",
+      "timeperiod": "2005 - 2008",
+      "description": "Drive sales by overseeing the customer service and merchandising of six to eight departments with sales ranging from $2 - $9 million. Set goals and expectations for the store. Strive to achieve sales goals and maintain budget controls. Coach and follow up with employees, including performing reviews and corrective action."
+    }
+  ],
+  "skills": [
+    { "name": "PHP", "level": 90 },
+    { "name": "Laravel", "level": 75 },
+    { "name": "Vue", "level": 80 },
+    { "name": "ES6", "level": 70 },
+    { "name": "MySQL", "level": 80 }
+  ]
+}

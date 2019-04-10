@@ -34,6 +34,7 @@
     "lint-staged": "^8.1.4",
     "sass": "^1.17.2",
     "sass-loader": "^7.1.0",
+    "tailwindcss": "^1.0.0-beta.4",
     "vue-template-compiler": "^2.5.21"
   },
   "gitHooks": {
