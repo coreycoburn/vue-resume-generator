@@ -1,6 +1,6 @@
 <template>
-  <div id="app" class="flex">
-    <div id="nav" class="p-12">
+  <div id="app" class="flex min-h-screen">
+    <div id="nav" class="w-1/4 max-w-xl p-12">
       <ul>
         <li><router-link to="/">Home</router-link></li>
 
@@ -9,7 +9,9 @@
     </div>
 
     <transition name="fade">
-      <router-view />
+      <div class="w-3/4 bg-gray-100 max-w-5xl shadow-lg">
+        <router-view />
+      </div>
     </transition>
   </div>
 </template>
