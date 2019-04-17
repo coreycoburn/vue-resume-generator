@@ -3,8 +3,7 @@ node_modules
 /dist
 /pdfs
 /screenshots
-/src/assets/user/data.local.json
-/src/assets/user/cover.local-1.json
+/src/assets/user/local
 
 /tests/e2e/videos/
 /tests/e2e/screenshots/
