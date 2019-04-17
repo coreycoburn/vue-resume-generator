@@ -6,6 +6,10 @@
 
 Fullstack Software Engineer and love using Laravel and Vuejs / Nuxt as the tech stack. Web developLovent is my passion. Constantly striving to become a better developer. I love being a husband and a father.
 
+### Vue Resume Generator
+
+I created this project so that I could export a resume and cover letter for myself. My goal is to create more designs and promote the open-source project.
+
 This is the code for my web developer resume. If you would like to reach out to me, please feel free to email me at `corey@coburn.codes` if you have any questions.
 
 You may also reach me at:
