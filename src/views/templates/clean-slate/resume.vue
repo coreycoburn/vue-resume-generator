@@ -132,6 +132,6 @@ export default {
 }
 
 .divider {
-  @apply border-b-4 w-1/3 mx-auto my-10;
+  @apply border-b-4 w-1/3 mx-auto my-8;
 }
 </style>

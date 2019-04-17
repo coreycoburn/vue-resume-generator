@@ -1,78 +1,75 @@
 {
   "headshot": {
-    "display": true
+    "display": false
   },
   "name": {
-    "first": "Corey",
+    "first": "Jon",
     "middle": "",
-    "last": "Coburn"
+    "last": "Snow"
   },
   "about": [
-    "I am a Full Stack Software Engineer with 8+ years of professional experience. My passion for this constantly evolving field resonates deeply with me. I continue to be inspired to excel as a developer and I am eager to be part of a team with similar goals."
+    "Winter is coming, we know what's coming with it. We can learn to live with the wildlings, or we can add them to the army of the dead. But if that's not enough, then consider this: if the Night's Watch are truly brothers, then Lord Commander Mormont was our father. He lived and died for the Watch and he was betrayed by his own men, stabbed in the back by cowards. He deserved far better."
   ],
   "position": {
-    "short": "Software Engineer",
-    "full": "Full Stack Software Engineer"
+    "short": "King in the North",
+    "full": "King in the North, Lord of Winterfell"
   },
   "contact": {
-    "email": "corey@coburn.codes",
-    "phone": "(707) 806-2644",
-    "location": "Santa Rosa, CA",
+    "email": "jon@housestark.com",
+    "phone": "(xxx) xxx-xxxx",
+    "location": "Castle Black, Westeros",
     "links": [
       {
         "site": "LinkedIn",
-        "name": "coreycoburn",
-        "url": "https://www.linkedin.com/in/coreycoburn"
+        "name": "jonsnow",
+        "url": "https://www.linkedin.com/in/jonsnow"
       },
       {
         "site": "Github",
-        "name": "coreycoburn",
-        "url": "https://www.linkedin.com/in/coreycoburn"
+        "name": "jonsnow",
+        "url": "https://www.linkedin.com/in/jonsnow"
       },
       {
         "site": "Website",
-        "name": "coburn.codes",
-        "url": "https://coburn.codes"
+        "name": "housestark.com",
+        "url": "https://housestark.com"
       }
     ]
   },
   "education": [
     {
-      "degree": "B.S.",
-      "major": "Business Administration",
-      "concentration": "Small Business Management",
-      "school": "Sonoma State University",
-      "timeperiod": "August 2001 - May 2005"
+      "degree": "Masters",
+      "major": "Combat & Leadership",
+      "concentration": "Longsword and Close Combat",
+      "school": "Student of Maester Luwin & Ser Rodrick Cassel",
+      "timeperiod": "285 AL - 298 AL"
     }
   ],
   "experience": [
     {
-      "company": "Certified Parking Attendants, LLC",
-      "position": "Full Stack Software Engineer",
-      "timeperiod": "2010 - 2019 (current)",
-      "description": "<p>Sole developer of a private greenfield web application that runs the critical day-to-day operations of the business. Built with modern APIs, LEAP is a custom CRM and ERM. The app provides features such as: <ul><li>Stack: PHP, Laravel, Vue, Nuxt, jQuery, MySQL, Redis, Docker, SASS, Tailwind CSS</li><li>Generation of business quotes/contracts</li><li>Payment processing</li><li>Extensive staff/event scheduling</li><li>Streamline hiring/training/retention</li><li>Generating business reports (financial/forecasting)</li><li>Integration of several external API's (mapping, weather, email, storage)</li></ul></p>"
+      "company": "Winterfell",
+      "position": "King in the North",
+      "timeperiod": "303 AL - Present",
+      "description": "<ul><li>The Dothraki do things in their own time, for their own reasons. May the Father judge him justly.</li><li>You know nothing, Jon Snow. Dunc the Lunk, thick as a castle wall.</li><li>Can a man still be brave if he’s afraid? That is the only time a man can be brave.King in the North.</li><li>Words are like wind.</li><li>What is dead may never die.</li></ul>"
+    },  
+    {
+      "company": "Castle Black",
+      "position": "Lord Commander of the Night's Watch",
+      "timeperiod": "302 AL - 303 AL",
+      "description": "<ul><li>When you play the game of thrones, you win or you die.</li><li>Can a man still be brave if he’s afraid? That is the only time a man can be brave.</li><li>A forked purple lightning bolt, on black field speckled with four-pointed stars.</li></ul>"
     },
     {
-      "company": "Certified Parking Attendants, LLC",
-      "position": "Operations Manager",
-      "timeperiod": "2008 - 2019 (current)",
-      "description": "Overseeing the services that Certified Parking Attendants offer to ensure that clients and employees feel valued. Leading a large team at events in the Bay Area at high profile locations to ensure superior customer service. Building great employee / customer rapport."
-    },
-    {
-      "company": "Target Corporation",
-      "position": "Executive Team Leader",
-      "timeperiod": "2005 - 2008",
-      "description": "Drive sales by overseeing the customer service and merchandising of six to eight departments with sales ranging from $2 - $9 million. Set goals and expectations for the store. Strive to achieve sales goals and maintain budget controls. Coach and follow up with employees, including performing reviews and corrective action."
+      "company": "Castle Black",
+      "position": "Brother of the Night's Watch",
+      "timeperiod": "300 AL - 302 AL",
+      "description": "<ul><li>Forgive my manners. I don't see many ladies these days. Lucky for the ladies. Unbowed, Unbent, Unbroken. Unbowed, Unbent, Unbroken.</li><li>The tourney of Ashford Meadows. And now his watch is ended. When you play the game of thrones, you win or you die.</li><li>And now his watch is ended. Bastards are born of passion, aren't they? We don't despise them in Dorne.</li></ul>"
     }
   ],
   "skills": [
-    { "name": "PHP", "level": 90 },
-    { "name": "Laravel", "level": 75 },
-    { "name": "Vue", "level": 80 },
-    { "name": "ES6", "level": 70 },
-    { "name": "MySQL", "level": 80 },
-    { "name": "API's", "level": 70 },
-    { "name": "UI", "level": 60 },
-    { "name": "DevOps", "level": 60 }
+    { "name": "Swordsmanship", "level": 80 },
+    { "name": "Combat", "level": 70 },
+    { "name": "Leadership", "level": 80 },
+    { "name": "Honorable", "level": 100 },
+    { "name": "Moral", "level": 100 }
   ]
 }

@@ -1,0 +1,44 @@
+{
+  "position": "Lord of the Seven Kingdoms",
+  "date": "April 14, 2019",
+  "company": "Game of Thrones",
+  "location": {
+    "address": "House Targaryen",
+    "city": "Dragonstone",
+    "state": "Westeros",
+    "zip": ""
+  },
+  "to": {
+    "name": {
+      "honorific": "Queen",
+      "first": "Daenerys",
+      "last": "Targaryen"
+    },
+    "position": "Breaker of Chains & Mother of Dragons"
+  },
+  "copy": [
+    {
+      "paragraph": "What is dead may never die. What is dead may never die. Can a man still be brave if he’s afraid? That is the only time a man can be brave.The North remembers. The War of the 5 kings. Words are like wind. Can a man still be brave if he’s afraid? That is the only time a man can be brave. House Tarly of Horn Hill."
+    },
+    {
+      "paragraph": "And now his watch is ended. Never Resting. Words are like wind. House Tarly of Horn Hill It is rare to meet a Lannister who shares my enthusiasm for dead Lannisters. I pledge my life and honor to the Night's Watch, for this night and all the nights to come. Fire and blood. Winter is coming."
+    },
+    {
+      "paragraph": "A good act does not wash out the bad, nor a bad act the good. Each should have its own reward. All men must die. And now his watch is ended. The bear and the maiden fair. Forgive my manners. I don't see many ladies these days. Lucky for the ladies. Forgive my manners. I don't see many ladies these days. Lucky for the ladies. The winds of Winter. All men must die."
+    },
+    {
+      "paragraph": "A forked purple lightning bolt, on black field speckled with four-pointed stars. When you play the game of thrones, you win or you die. As High as Honor. I would like a trial by combat. Fire and blood. I pledge my life and honor to the Night's Watch, for this night and all the nights to come. Fire and blood. I pledge my life and honor to the Night's Watch, for this night and all the nights to come."
+    },
+    {
+      "paragraph": "lorem..."
+    }
+  ],
+  "from": {
+    "location": {
+      "address": "The Wall",
+      "city": "Castle Black",
+      "state": "Westeros",
+      "zip": ""
+    }
+  }
+}

@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 
 const createPdf = async () => {
-  const url = "http://localhost:8080/#/templates/clean-slate/resume";
+  const url = "http://localhost:8080/#/templates/clean-slate/cover";
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
@@ -15,7 +15,7 @@ const createPdf = async () => {
   }
 
   await page.pdf({
-    path: "pdfs/resume.pdf",
+    path: "pdfs/cover-letter.pdf",
     printBackground: true
   });
 
