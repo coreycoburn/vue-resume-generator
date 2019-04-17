@@ -1,6 +1,6 @@
 <template>
   <div class="flex">
-    <div class="w-1/3 bg-gray-800 text-gray-100 p-12 text-center">
+    <div class="w-1/3 bg-gray-800 text-gray-100 p-10 text-center">
       <div class="flex justify-center">
         <img
           v-if="data.headshot.display"
@@ -54,6 +54,7 @@
           :key="index"
         >
           <div class="mb-2">{{ education.degree }} / {{ education.major }}</div>
+          <div class="mb-2">{{ education.concentration }}</div>
           <div class="mb-2">{{ education.school }}</div>
           <div class="mb-2">{{ education.timeperiod }}</div>
         </div>
@@ -77,7 +78,7 @@
     </div>
 
     <div class="w-2/3 bg-gray-100">
-      <div class="bg-gray-200 p-12">
+      <div class="bg-gray-200 px-10 py-8">
         <h2 class="heading" v-text="data.position.full" />
 
         <div>
@@ -89,7 +90,7 @@
         </div>
       </div>
 
-      <div class="p-12">
+      <div class="experience px-10 py-8">
         <h2 class="heading">Experience</h2>
 
         <div
@@ -98,13 +99,13 @@
           index) in data.experience"
           :key="index"
         >
-          <div class="italic" v-text="timeperiod"></div>
+          <div class="text-xs italic" v-text="timeperiod"></div>
 
           <div class="uppercase font-bold">{{ position }}</div>
 
           <div class="uppercase mb-4">{{ company }}</div>
 
-          <div>{{ description }}</div>
+          <div class="text-xs" v-html="description" />
         </div>
       </div>
     </div>
@@ -115,7 +116,7 @@
 import data from "@/assets/user/data.json";
 
 export default {
-  name: "Template-1",
+  name: "clean-slate-resume",
 
   data() {
     return {
@@ -131,6 +132,6 @@ export default {
 }
 
 .divider {
-  @apply border-b-4 w-1/3 mx-auto my-12;
+  @apply border-b-4 w-1/3 mx-auto my-10;
 }
 </style>

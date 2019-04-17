@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 
 const takeScreenshot = async () => {
-  const url = "http://localhost:8080/#/template-1";
+  const url = "http://localhost:8080/#/templates/clean-slate/resume";
   const browser = await puppeteer.launch();
 
   const page = await browser.newPage();

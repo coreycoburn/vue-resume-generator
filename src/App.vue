@@ -1,20 +1,47 @@
 <template>
-  <div id="app" class="flex min-h-screen">
+  <div id="app" class="flex">
     <div id="nav" class="w-1/4 max-w-xl p-12">
       <ul>
-        <li><router-link to="/">Home</router-link></li>
-
-        <li><router-link to="/template-1">Template 1</router-link></li>
+        <ul v-for="(route, index) in routes" :key="index">
+          <li class="mt-4">
+            <router-link
+              :to="{ name: route.name }"
+              class="text-gray-700 capitalize"
+              >{{ route.name }}</router-link
+            >
+            <ul v-for="child in route.children" :key="child.name" class="ml-6">
+              <li class="mt-4">
+                <router-link
+                  :to="{ name: child.name }"
+                  class="text-gray-700 capitalize"
+                  >{{ child.name }}</router-link
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
       </ul>
     </div>
 
-    <transition name="fade">
-      <div class="w-3/4 bg-gray-100 max-w-5xl shadow-lg">
-        <router-view />
-      </div>
-    </transition>
+    <div class="max-w-5xl">
+      <router-view />
+    </div>
   </div>
 </template>
+
+<script>
+import routes from "@/routes";
+
+export default {
+  name: "app",
+
+  data() {
+    return {
+      routes
+    };
+  }
+};
+</script>
 
 <style scoped>
 @media print {

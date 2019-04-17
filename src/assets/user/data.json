@@ -40,6 +40,7 @@
     {
       "degree": "B.S.",
       "major": "Business Administration",
+      "concentration": "Small Business Management",
       "school": "Sonoma State University",
       "timeperiod": "August 2001 - May 2005"
     }
@@ -49,7 +50,7 @@
       "company": "Certified Parking Attendants, LLC",
       "position": "Full Stack Software Engineer",
       "timeperiod": "2010 - 2019 (current)",
-      "description": "Sole developer of a private greenfield web application that runs the critical day-to-day operations of the business. Built with modern APIs, LEAP is a custom CRM and ERM. The app provides features such as the generation of business proposals and contracts, payment processing, extensive staff/event scheduling, streamline hiring, generating business reports, among other essential business processes."
+      "description": "<p>Sole developer of a private greenfield web application that runs the critical day-to-day operations of the business. Built with modern APIs, LEAP is a custom CRM and ERM. The app provides features such as: <ul><li>Stack: PHP, Laravel, Vue, Nuxt, jQuery, MySQL, Redis, Docker, SASS, Tailwind CSS</li><li>Generation of business quotes/contracts</li><li>Payment processing</li><li>Extensive staff/event scheduling</li><li>Streamline hiring/training/retention</li><li>Generating business reports (financial/forecasting)</li><li>Integration of several external API's (mapping, weather, email, storage)</li></ul></p>"
     },
     {
       "company": "Certified Parking Attendants, LLC",
@@ -69,6 +70,9 @@
     { "name": "Laravel", "level": 75 },
     { "name": "Vue", "level": 80 },
     { "name": "ES6", "level": 70 },
-    { "name": "MySQL", "level": 80 }
+    { "name": "MySQL", "level": 80 },
+    { "name": "API's", "level": 70 },
+    { "name": "UI", "level": 60 },
+    { "name": "DevOps", "level": 60 }
   ]
 }
