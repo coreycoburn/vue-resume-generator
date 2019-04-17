@@ -16,7 +16,13 @@ export default [
         path: "clean-slate/resume",
         name: "clean-slate-resume",
         component: () =>
-          import(/* webpackChunkName: "template-1-resume" */ "./views/templates/clean-slate/resume.vue")
+          import(/* webpackChunkName: "clean-slate-resume" */ "./views/templates/clean-slate/resume.vue")
+      },
+      {
+        path: "clean-slate/cover",
+        name: "clean-slate-cover",
+        component: () =>
+          import(/* webpackChunkName: "clean-slate-cover" */ "./views/templates/clean-slate/cover.vue")
       }
     ]
   }

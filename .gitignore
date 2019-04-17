@@ -3,6 +3,7 @@ node_modules
 /dist
 /pdfs
 /screenshots
+/src/assets/user/cover.json
 
 /tests/e2e/videos/
 /tests/e2e/screenshots/

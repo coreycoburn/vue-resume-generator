@@ -23,7 +23,7 @@
       </ul>
     </div>
 
-    <div class="max-w-5xl">
+    <div class="w-full max-w-5xl">
       <router-view />
     </div>
   </div>
