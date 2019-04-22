@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 
-const createPdf = async () => {
-  const url = "http://localhost:8080/#/templates/clean-slate/cover";
+const createPdf = async file => {
+  const url = `http://localhost:8080/#/templates/${file}`;
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
@@ -15,11 +15,12 @@ const createPdf = async () => {
   }
 
   await page.pdf({
-    path: "pdfs/cover-letter.pdf",
+    path: `pdfs/${file.replace(/\//, "-")}.pdf`,
     printBackground: true
   });
 
   await browser.close();
 };
 
-createPdf();
+createPdf("clean-slate/cover");
+createPdf("clean-slate/resume");
